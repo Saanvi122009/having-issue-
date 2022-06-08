@@ -86,7 +86,7 @@ function draw() {
 if (arrowGroup.isTouching(redB)){
   //if (arrowGroup.Collide(redB)) 
   //if (arrowGroup.isCollide(redB)) 
-  if(frameCount>700)
+// if(frameCount>700)
   {
     redB.destroyEach();
     gameState=END; 
